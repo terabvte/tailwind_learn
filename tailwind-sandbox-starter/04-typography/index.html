@@ -4,43 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+          theme: {
+            fontFamily: {
+              'sans': ['ui-sans-serif', 'system-ui', ...],
+              'serif': ['Tapestry', 'Georgia', ...],
+              'mono': ['ui-monospace', 'SFMono-Regular', ...],
+            }
+          }
+        }
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
-
+    <div class="font-sans">Tailwinsdss ss</div>
+    <div class="font-serif">Tailwinsdss ss</div>
+    <div class="font-mono">Tailwinsdss ss</div>
     <!-- Font Size -->
-
+    <div class="text-xs">yooo</div>
+    <div class="text-sm">yooo</div>
+    <div class="text-m">yooo</div>
+    <div class="text-l">yooo</div>
+    <div class="text-xl">yooo</div>
+    <div class="text-2xl">yooo</div>
+    <div class="text-3xl">yooo</div>
+    <div class="text-5xl">yooo</div>
+    <div class="text-6xl">yooo</div>
     <!-- Font Weight -->
-
+    <div class="text-5xl font-light">yooo</div>
+    <div class="text-5xl font-normal">yooo</div>
+    <div class="text-5xl font-medium">yooo</div>
+    <div class="text-5xl font-semibold">yooo</div>
+    <div class="text-5xl font-bold">yooo</div>
     <!-- Letter Spacing -->
-
+    <div class="text-5xl tracking-tight">yyoooooo</div>
+    <div class="text-5xl tracking-normal">yyoooooo</div>
+    <div class="text-5xl tracking-wide">yyoooooo</div>
     <!-- Text Alignment -->
+    <div class="text-5xl text-left">yooo</div>
+    <div class="text-5xl text-right">yooo</div>
+    <div class="text-5xl text-center">yooo</div>
 
     <!-- Text Decoration -->
-
-    <!-- Decoration Style -->
-
-    <!-- Decoration Offset -->
+    <div class="text-5xl underline decoration-8 decoration-double decoration-red-800 mb-2">This</div>
+    <div class="text-5xl underline decoration-8 decoration-red-800 mb-2">Is</div>
+    <div class="text-5xl underline decoration-8 decoration-red-800 mb-4">Cinema</div>
 
     <!-- Text Transform -->
+    <div class="text-5xl normal-case">yooo</div>
+    <div class="text-5xl uppercase">yooo</div>
+    <div class="text-5xl lowercase">yooo</div>
+    <div class="text-5xl capitalize">yooo</div>
+
   </body>
 </html>
 
 <!-- Font Family
-  font-sans	
+  font-sans
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-  font-serif	
+  font-serif
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  
-  font-mono	
+
+  font-mono
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 -->
 
-<!-- 
+<!--
   Font Size
   text-xs	    font-size: 0.75rem; /* 12px */
   text-sm	    font-size: 0.875rem; /* 14px */
@@ -54,7 +94,7 @@
   text-6xl	  font-size: 3.75rem; /* 60px */
   text-7xl	  font-size: 4.5rem; /* 72px */
   text-8xl	  font-size: 6rem; /* 96px */
-  text-9xl	  font-size: 8rem; /* 128px */ 
+  text-9xl	  font-size: 8rem; /* 128px */
 -->
 
 <!-- Font Weight
